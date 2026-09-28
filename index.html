@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Osama Mamdouh — Full Stack .NET Developer</title>
+<meta name="description" content="Full Stack .NET Developer based in Cairo, building modern, responsive and user-friendly web applications.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500;600&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="theme-dark">
+
+
+<header class="nav">
+  <div class="container nav-inner">
+
+    <a href="#home" class="nav-logo">
+      <span class="nav-logo-mark">OM</span>
+      <span class="nav-logo-text">Osama Mamdouh</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about"    data-en="About"    data-ar="نبذة عني">About</a>
+      <a href="#skills"   data-en="Skills"   data-ar="المهارات">Skills</a>
+      <a href="#education" data-en="Education" data-ar="التعليم">Education</a>
+      <a href="#projects" data-en="Projects" data-ar="المشاريع">Projects</a>
+      <a href="#contact"  data-en="Contact"  data-ar="تواصل معي">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="langToggle" type="button" aria-label="Switch language">
+        <span id="langLabel">AR</span>
+      </button>
+
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+        </svg>
+      </button>
+
+      <button class="icon-btn nav-burger" id="burger" type="button" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+
+<section class="hero" id="home">
+  <div class="hero-glow"></div>
+  <div class="container hero-inner">
+
+    <div class="hero-text">
+      <p class="hero-eyebrow reveal" data-en="Based in Cairo, Egypt" data-ar="من القاهرة، مصر">Based in Cairo, Egypt</p>
+
+      <h1 class="hero-name reveal" data-en="Osama Mamdouh" data-ar="أسامة ممدوح">Osama Mamdouh</h1>
+
+      <p class="hero-role reveal" data-en="Full Stack .NET Developer" data-ar="مطور ويب فُل ستاك .NET">Full Stack .NET Developer</p>
+
+      <p class="hero-desc reveal"
+         data-en="I build modern, responsive web applications and turn ideas into clean, functional and scalable solutions."
+         data-ar="بابني تطبيقات ويب عصرية ومتجاوبة، وبحوّل الأفكار إلى حلول نظيفة وعملية وقابلة للتوسع.">
+        I build modern, responsive web applications and turn ideas into clean, functional and scalable solutions.
+      </p>
+
+      <div class="hero-buttons reveal">
+        <a href="#contact" class="shiny-btn"><span data-en="Get in touch" data-ar="تواصل معي">Get in touch</span></a>
+        <a href="#projects" class="ghost-btn" data-en="See my work" data-ar="شوف شغلي">See my work</a>
+      </div>
+
+      <div class="hero-social reveal">
+        <a href="https://github.com/ossama-eng" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 1.8 2.7 1.3 3.4 1 .1-.7.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2.9-.3 1.9-.4 2.9-.4s2 .1 2.9.4c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.6-1.5 7.8-5.8 7.8-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/osama-mamdouh0" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 20.4h-3.5v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6h.1c.5-.9 1.6-1.9 3.4-1.9 3.6 0 4.2 2.4 4.2 5.4v6.3zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.4H3.6V9h3.5v11.4zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7c0-.9-.8-1.7-1.8-1.7z"/></svg>
+        </a>
+        <a href="mailto:asamt3367@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m2 7 10 6 10-6"></path></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-photo reveal">
+      <div class="photo-orbit">
+        <span class="orbit-ring orbit-ring-1"></span>
+        <span class="orbit-ring orbit-ring-2"></span>
+        <span class="orbit-dot orbit-dot-1"></span>
+        <span class="orbit-dot orbit-dot-2"></span>
+        <span class="orbit-dot orbit-dot-3"></span>
+
+        <div class="photo-frame">
+
+          <img src="img/profile.jpg" alt="Osama Mamdouh">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section" id="about">
+  <div class="container">
+
+    <h2 class="section-title reveal" data-en="About me" data-ar="نبذة عني">About me</h2>
+
+    <div class="about-grid">
+      <p class="about-text reveal"
+         data-en="I’m a passionate Full Stack .NET Developer focused on building modern, responsive, and user-friendly web applications. I enjoy turning ideas into clean, functional, and scalable solutions while continuously improving my skills."
+         data-ar="أنا مطور ويب فُل ستاك .NET شغوف ببناء تطبيقات ويب عصرية ومتجاوبة وسهلة الاستخدام. بستمتع بتحويل الأفكار إلى حلول نظيفة وعملية وقابلة للتوسع، وبطوّر مهاراتي باستمرار.">
+        I’m a passionate Full Stack .NET Developer focused on building modern, responsive, and user-friendly web applications. I enjoy turning ideas into clean, functional, and scalable solutions while continuously improving my skills.
+      </p>
+
+      <ul class="about-facts">
+        <li class="reveal">
+          <span class="fact-key" data-en="Location" data-ar="المكان">Location</span>
+          <span class="fact-val" data-en="Cairo, Egypt" data-ar="القاهرة، مصر">Cairo, Egypt</span>
+        </li>
+        <li class="reveal">
+          <span class="fact-key" data-en="Field" data-ar="التخصص">Field</span>
+          <span class="fact-val" data-en="Computer Science" data-ar="علوم الحاسب">Computer Science</span>
+        </li>
+        <li class="reveal">
+          <span class="fact-key" data-en="Focus" data-ar="مجال التركيز">Focus</span>
+          <span class="fact-val" data-en="Web applications" data-ar="تطبيقات الويب">Web applications</span>
+        </li>
+        <li class="reveal">
+          <span class="fact-key" data-en="Email" data-ar="الإيميل">Email</span>
+          <span class="fact-val"><a href="mailto:asamt3367@gmail.com">asamt3367@gmail.com</a></span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section section-alt" id="skills">
+  <div class="container">
+
+    <h2 class="section-title reveal" data-en="Skills" data-ar="المهارات">Skills</h2>
+
+    <div class="skills-grid">
+
+      <div class="skills-col">
+        <h3 class="skills-heading reveal" data-en="Technical" data-ar="مهارات تقنية">Technical</h3>
+
+        <div class="bars">
+          <div class="bar-row reveal">
+            <div class="bar-head"><span>HTML</span><span class="bar-pct">95%</span></div>
+            <div class="bar-track"><i class="bar-fill" data-level="95"></i></div>
+          </div>
+          <div class="bar-row reveal">
+            <div class="bar-head"><span>CSS</span><span class="bar-pct">92%</span></div>
+            <div class="bar-track"><i class="bar-fill" data-level="92"></i></div>
+          </div>
+          <div class="bar-row reveal">
+            <div class="bar-head"><span>JavaScript</span><span class="bar-pct">85%</span></div>
+            <div class="bar-track"><i class="bar-fill" data-level="85"></i></div>
+          </div>
+          <div class="bar-row reveal">
+            <div class="bar-head"><span>Tailwind CSS</span><span class="bar-pct">88%</span></div>
+            <div class="bar-track"><i class="bar-fill" data-level="88"></i></div>
+          </div>
+          <div class="bar-row reveal">
+            <div class="bar-head"><span>C#</span><span class="bar-pct">80%</span></div>
+            <div class="bar-track"><i class="bar-fill" data-level="80"></i></div>
+          </div>
+          <div class="bar-row reveal">
+            <div class="bar-head"><span>SQL Server</span><span class="bar-pct">78%</span></div>
+            <div class="bar-track"><i class="bar-fill" data-level="78"></i></div>
+          </div>
+          <div class="bar-row reveal">
+            <div class="bar-head"><span data-en="Databases" data-ar="قواعد البيانات">Databases</span><span class="bar-pct">80%</span></div>
+            <div class="bar-track"><i class="bar-fill" data-level="80"></i></div>
+          </div>
+          <div class="bar-row reveal">
+            <div class="bar-head"><span data-en="Problem Solving" data-ar="حل المشكلات">Problem Solving</span><span class="bar-pct">90%</span></div>
+            <div class="bar-track"><i class="bar-fill" data-level="90"></i></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-col">
+        <h3 class="skills-heading reveal" data-en="Personal" data-ar="مهارات شخصية">Personal</h3>
+
+        <ul class="chips">
+          <li class="reveal" data-en="Teamwork" data-ar="العمل الجماعي">Teamwork</li>
+          <li class="reveal" data-en="Communication" data-ar="التواصل">Communication</li>
+          <li class="reveal" data-en="Time Management" data-ar="إدارة الوقت">Time Management</li>
+          <li class="reveal" data-en="Adaptability" data-ar="سرعة التأقلم">Adaptability</li>
+          <li class="reveal" data-en="Critical Thinking" data-ar="التفكير النقدي">Critical Thinking</li>
+          <li class="reveal" data-en="Attention to Detail" data-ar="الاهتمام بالتفاصيل">Attention to Detail</li>
+          <li class="reveal" data-en="Continuous Learning" data-ar="التعلم المستمر">Continuous Learning</li>
+          <li class="reveal" data-en="Working Under Pressure" data-ar="العمل تحت ضغط">Working Under Pressure</li>
+          <li class="reveal" data-en="Patience &amp; Persistence" data-ar="الصبر والمثابرة">Patience &amp; Persistence</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="education">
+  <div class="container">
+
+    <h2 class="section-title reveal" data-en="Education" data-ar="التعليم">Education</h2>
+
+    <div class="edu-card reveal">
+      <div class="edu-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 9 12 4 2 9l10 5 10-5z"></path>
+          <path d="M6 11.5V17c0 1.1 2.7 2.5 6 2.5s6-1.4 6-2.5v-5.5"></path>
+        </svg>
+      </div>
+      <div class="edu-body">
+        <h3 data-en="Computer Science" data-ar="علوم الحاسب">Computer Science</h3>
+
+        <p class="edu-place" data-en="Al Shourok Academy — Computer Science" data-ar="اكاديمية الشروق — علوم حاسب">University name — add it here</p>
+        <p class="edu-years">2024 — present</p>
+        <p class="edu-note"
+            data-en="Studying software development, databases and web technologies, alongside self-driven work on real projects."
+            data-ar="دراسة تطوير البرمجيات وقواعد البيانات وتقنيات الويب، بجانب العمل على مشاريع حقيقية بشكل ذاتي.">
+          Studying software development, databases and web technologies, alongside self-driven work on real projects.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===================== PROJECTS ===================== -->
+<section class="section section-alt" id="projects">
+  <div class="container">
+
+    <h2 class="section-title reveal" data-en="Projects" data-ar="المشاريع">Projects</h2>
+    <p class="section-sub reveal"
+        data-en="A selection of things I have built recently."
+        data-ar="مجموعة من الحاجات اللي بنيتها مؤخرًا.">
+      A selection of things I have built recently.
+    </p>
+
+    <div class="projects-grid">
+
+      <article class="project-card reveal">
+        <div class="project-thumb">
+
+          <img src="img/project-1.jpg" alt="Project one">
+        </div>
+        <div class="project-body">
+          <h3 data-en="Gym Membership Management System" data-ar="Gym Membership Management System">Gym Membership Management System</h3>
+          <p data-en="A web-based gym platform where members can view their subscription details, track remaining days and attendance streaks, renew memberships, explore the latest offers, and monitor real-time gym occupancy through visual charts."
+             data-ar="منصة ويب للجيم تتيح للأعضاء متابعة تفاصيل الاشتراك وعدد الأيام المتبقية والاستريك، وتجديد الاشتراك، ومعرفة أحدث العروض، بالإضافة إلى متابعة عدد الأشخاص الموجودين في الجيم حاليًا من خلال رسوم بيانية توضح مدى ازدحام الجيم.">
+            Write a short description of the project here — what it does and what problem it solves.
+          </p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://ossama-eng.github.io/4K-GYM-Frontend/" target="_blank" rel="noopener" data-en="Live demo" data-ar="معاينة مباشرة">Live demo</a>
+            <a href="https://github.com/ossama-eng/4K-GYM-Frontend" target="_blank" rel="noopener" data-en="Source code" data-ar="الكود">Source code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-thumb">
+          <img src="img/project-2.jpg" alt="Project two">
+        </div>
+        <div class="project-body">
+          <h3 data-en="Egyptian Antiquities E-Commerce Store" data-ar="Egyptian Antiquities E-Commerce Store">Egyptian Antiquities E-Commerce Store</h3>
+          <p data-en="A large e-commerce platform for selling Egyptian and Pharaonic artifacts, offering customers a wide range of products with an organized shopping experience."
+              data-ar="متجر إلكتروني كبير متخصص في بيع التحف والمنتجات المستوحاة من الحضارة المصرية والفرعونية، ويوفر مجموعة واسعة من المنتجات مع تجربة تسوق منظمة وسهلة.">
+            Write a short description of the project here — what it does and what problem it solves.
+          </p>
+          <div class="project-tags">
+            <span>HTML</span><span>Tailwind CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://ossama-eng.github.io/Egyptian-Antiquities-E-Commerce-Store-FrontEnd/" target="_blank" rel="noopener" data-en="Live demo" data-ar="معاينة مباشرة">Live demo</a>
+            <a href="https://github.com/ossama-eng/Egyptian-Antiquities-E-Commerce-Store-FrontEnd" target="_blank" rel="noopener" data-en="Source code" data-ar="الكود">Source code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-thumb">
+          <img src="img/project-3.jpg" alt="Project three">
+        </div>
+        <div class="project-body">
+          <h3 data-en="Teacher Booking & Portfolio Website" data-ar="موقع بروفايل وحجز للمدرس">Teacher Booking & Portfolio Website</h3>
+          <p data-en="A professional teacher portfolio and booking website where students can learn about the teacher and submit their contact and booking details through an online form."
+              data-ar="موقع احترافي لعرض بروفايل المدرس ومعلوماته، يتيح للطلاب التواصل معه وإرسال بياناتهم وطلب الحجز من خلال فورم إلكتروني.">
+            Write a short description of the project here — what it does and what problem it solves.
+          </p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span><span>SQL Server</span><span>C#</span>
+          </div>
+          <div class="project-links">
+            <a href="https://ossama-eng.github.io/MR-3zima-Booking/" target="_blank" rel="noopener" data-en="Live demo" data-ar="معاينة مباشرة">Live demo</a>
+            <a href="https://github.com/ossama-eng/MR-3zima-Booking" target="_blank" rel="noopener" data-en="Source code" data-ar="الكود">Source code</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="section" id="contact">
+  <div class="container">
+
+    <h2 class="section-title reveal" data-en="Contact" data-ar="تواصل معي">Contact</h2>
+    <p class="section-sub reveal"
+       data-en="Send me a message and I will reply as soon as I can."
+       data-ar="ابعتلي رسالة وهرد عليك في أقرب وقت.">
+      Send me a message and I will reply as soon as I can.
+    </p>
+
+    <div class="contact-grid">
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="field">
+          <label for="name" data-en="Your name" data-ar="اسمك">Your name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+          <small class="field-error" data-en="Please enter your name." data-ar="من فضلك اكتب اسمك.">Please enter your name.</small>
+        </div>
+
+        <div class="field">
+          <label for="email" data-en="Your email" data-ar="إيميلك">Your email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+          <small class="field-error" data-en="Please enter a valid email address." data-ar="من فضلك اكتب إيميل صحيح.">Please enter a valid email address.</small>
+        </div>
+
+        <div class="field">
+          <label for="subject" data-en="Subject" data-ar="الموضوع">Subject</label>
+          <input type="text" id="subject" name="subject">
+        </div>
+
+        <div class="field">
+          <label for="message" data-en="Message" data-ar="الرسالة">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+          <small class="field-error" data-en="Please write your message." data-ar="من فضلك اكتب رسالتك.">Please write your message.</small>
+        </div>
+
+        <button type="submit" class="shiny-btn form-submit" id="submitBtn">
+          <span data-en="Send message" data-ar="إرسال الرسالة">Send message</span>
+        </button>
+      </form>
+
+      <aside class="contact-side">
+        <div class="contact-card reveal">
+          <div class="contact-card-icon whatsapp-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5 4.4.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.4M12 22a10 10 0 0 1-5.1-1.4L2 22l1.5-4.7A10 10 0 1 1 12 22"/></svg>
+          </div>
+          <h3 data-en="WhatsApp" data-ar="واتساب">WhatsApp</h3>
+          <p data-en="Prefer a faster reply? Message me directly."
+             data-ar="عايز رد أسرع؟ كلمني على طول.">Prefer a faster reply? Message me directly.</p>
+          <a class="whatsapp-btn" id="whatsappLink" href="https://wa.me/201018840917" target="_blank" rel="noopener"
+             data-en="Open WhatsApp" data-ar="افتح واتساب">Open WhatsApp</a>
+        </div>
+
+        <div class="contact-card reveal">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m2 7 10 6 10-6"></path></svg>
+          </div>
+          <h3 data-en="Email" data-ar="الإيميل">Email</h3>
+          <p>asamt3367@gmail.com</p>
+          <a class="whatsapp-btn mail-btn" href="mailto:asamt3367@gmail.com"
+             data-en="Send an email" data-ar="ابعت إيميل">Send an email</a>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© <span id="year">2026</span> Osama Mamdouh</p>
+    <p data-en="Built with HTML, CSS and JavaScript." data-ar="مبني بـ HTML و CSS و JavaScript.">Built with HTML, CSS and JavaScript.</p>
+  </div>
+</footer>
+
+<!-- ===================== ALERT MODAL ===================== -->
+<div class="alert-overlay" id="alertOverlay" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="alert-box" id="alertBox">
+
+    <div class="alert-mark alert-mark-success" id="markSuccess">
+      <svg viewBox="0 0 52 52">
+        <circle class="mark-circle" cx="26" cy="26" r="24"></circle>
+        <path class="mark-path" d="M14 27l8 8 16-16"></path>
+      </svg>
+    </div>
+
+    <div class="alert-mark alert-mark-error" id="markError">
+      <svg viewBox="0 0 52 52">
+        <circle class="mark-circle" cx="26" cy="26" r="24"></circle>
+        <path class="mark-path mark-path-1" d="M17 17l18 18"></path>
+        <path class="mark-path mark-path-2" d="M35 17L17 35"></path>
+      </svg>
+    </div>
+
+    <h3 class="alert-title" id="alertTitle">Message sent</h3>
+    <p class="alert-text" id="alertText">Thanks for reaching out.</p>
+
+    <a class="alert-whatsapp" id="alertWhatsapp" href="https://wa.me/YOUR_NUMBER_HERE" target="_blank" rel="noopener"
+       data-en="Message me on WhatsApp" data-ar="كلمني على واتساب">Message me on WhatsApp</a>
+
+    <button type="button" class="alert-close" id="alertClose" data-en="Close" data-ar="إغلاق">Close</button>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
