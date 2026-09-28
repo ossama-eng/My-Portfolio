@@ -55,6 +55,8 @@ html[dir="rtl"] h3 { font-family: "Tajawal", "Inter", sans-serif; }
 
 ::selection { background-color: #c2410c; color: #08111f; }
 
+body.theme-light ::selection { background-color: #5F2CFF; color: #FFFFFF; }
+
 :focus-visible {
   outline: 2px solid #c2410c;
   outline-offset: 3px;
